@@ -11,14 +11,6 @@ Một công cụ để chặn các server của game Wuthering Waves bằng các
 - 🛡️ Yêu cầu quyền Administrator để bảo mật
 - 🌍 **Hỗ trợ đa ngôn ngữ (Tiếng Anh - Tiếng Việt)**
 
-## Files
-
-- `kuroblock_menu.py` - Script chính với menu tương tác
-- `build_kuroblock.py` - Script build file exe
-- `kuroblock.ico` - Icon cho file exe
-- `README.md` - Hướng dẫn tiếng Anh
-- `dist/Kuroblock.exe` - File exe đã build (sau khi chạy build script)
-
 ## Cài đặt
 
 ### Cách 1: Chạy với quyền Administrator
@@ -40,7 +32,7 @@ Khi chạy chương trình, bạn sẽ thấy menu với 4 tùy chọn:
 ==================================================
 1. Kiểm tra trạng thái hiện tại
 2. Chặn server (để dùng cheat)
-3. Bỏ chặn server (để chơi online)
+3. Bỏ chặn server
 4. Thoát
 ```
 

@@ -12,14 +12,6 @@ A tool to block Wuthering Waves game servers by modifying the hosts file, helpin
 - 🧹 Includes hosts file cleaner for FitGirl entries
 - 🌍 **NEW: Interactive menu with 3 options**
 
-## Files
-
-- `kuroblock_menu.py` - Main menu script with 3 options
-- `clean_hosts.py` - FitGirl entries cleaner
-- `build_kuroblock.py` - Build script for executable
-- `kuroblock.ico` - Icon for the executable
-- `dist/Kuroblock.exe` - Built executable (after running build script)
-
 ## Installation
 
 ### Option 1: Run as Administrator
@@ -41,7 +33,7 @@ When you run the program, you'll see a menu with 4 options:
 ==================================================
 1. Check current status
 2. Block servers (for cheats)
-3. Unblock servers (for online play)
+3. Unblock servers
 4. Exit
 ```
 
