@@ -1,0 +1,33 @@
+# Build directories
+build/
+dist/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller files
+*.spec
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+backups/
+
+# Logs
+*.log
+logs/ 
