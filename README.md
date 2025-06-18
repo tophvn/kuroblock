@@ -1,6 +1,6 @@
 # Kuroblock - Wuthering Waves Server Blocker
 
-A Python-based tool to block Wuthering Waves game servers by modifying the hosts file, helping to minimize the risk of detection when using cheats or mods.
+A tool to block Wuthering Waves game servers by modifying the hosts file, helping to minimize the risk of detection when using cheats or mods.
 
 ## Features
 
@@ -45,21 +45,6 @@ When you run the program, you'll see a menu with 4 options:
 4. Exit
 ```
 
-**Option 1: Check Status**
-- Shows which domains are currently blocked
-- Displays summary (X/9 domains blocked)
-- No changes made to system
-
-**Option 2: Block Servers**
-- Creates backup before blocking
-- Blocks all Wuthering Waves domains
-- Minimizes risk of detection
-
-**Option 3: Unblock Servers**
-- Creates backup before unblocking
-- Removes all Wuthering Waves blocks
-- Safe for online play
-
 ### Command Line Usage
 ```bash
 # Run Python script
@@ -100,13 +85,6 @@ The following domains are blocked to prevent the game from sending data to serve
 ## Backup Location
 
 Backups are stored in: `C:\Windows\System32\drivers\etc\backups\`
-
-## Warning
-
-⚠️ This tool modifies system files. Always run as Administrator.
-⚠️ Use at your own risk. Modifying game files may violate terms of service.
-⚠️ Keep backups of your hosts file before using.
-
 
 ## How it works
 

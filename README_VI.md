@@ -1,6 +1,6 @@
 # Kuroblock - Công cụ chặn server Wuthering Waves
 
-Một công cụ Python để chặn các server của game Wuthering Waves bằng cách chỉnh sửa file hosts, giúp giảm thiểu khả năng bị phát hiện khi sử dụng cheat hoặc mod.
+Một công cụ để chặn các server của game Wuthering Waves bằng cách chỉnh sửa file hosts, giúp giảm thiểu khả năng bị phát hiện khi sử dụng cheat hoặc mod.
 
 ## Tính năng
 
@@ -44,20 +44,6 @@ Khi chạy chương trình, bạn sẽ thấy menu với 4 tùy chọn:
 4. Thoát
 ```
 
-**Tùy chọn 1: Kiểm tra trạng thái**
-- Hiển thị domain nào đã được chặn
-- Hiển thị tóm tắt (X/9 domain đã chặn)
-- Không thay đổi hệ thống
-
-**Tùy chọn 2: Chặn server**
-- Tạo backup trước khi chặn
-- Chặn tất cả domain Wuthering Waves
-- Giảm thiểu khả năng bị phát hiện
-
-**Tùy chọn 3: Bỏ chặn server**
-- Tạo backup trước khi bỏ chặn
-- Xóa tất cả block Wuthering Waves
-- An toàn để chơi online
 
 ### Sử dụng dòng lệnh
 ```bash
@@ -90,12 +76,6 @@ Các domain sau đây bị chặn để ngăn game gửi dữ liệu về server
 ## Vị trí backup
 
 Backup được lưu tại: `C:\Windows\System32\drivers\etc\backups\`
-
-## Cảnh báo
-
-⚠️ Công cụ này chỉnh sửa file hệ thống. Luôn chạy với quyền Administrator.
-⚠️ Sử dụng có rủi ro. Chỉnh sửa file game có thể vi phạm điều khoản sử dụng.
-⚠️ Luôn giữ backup file hosts trước khi sử dụng.
 
 ## Cách hoạt động
 
