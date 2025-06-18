@@ -174,7 +174,7 @@ class KuroblockMenu:
         print(f"   {self.t('blocked')}: {blocked_count}/{len(self.wuwa_servers)} {self.t('domains_blocked')}")
         
         if blocked_count == len(self.wuwa_servers):
-            print("\n🎉 " + self.t("all_blocked"))
+            print("\n" + self.t("all_blocked"))
             print("   " + self.t("can_use_cheats"))
         elif blocked_count > 0:
             print("\n⚠️  " + self.t("partially_blocked"))
@@ -231,7 +231,7 @@ class KuroblockMenu:
             with open(self.hosts_file, 'a', encoding='utf-8') as f:
                 f.write('\n' + '\n'.join(new_entries) + '\n')
             print("✅ " + self.t("added_blocks") + f" {len(new_entries)} " + self.t("new_blocks"))
-            print("🎉 " + self.t("blocked_successfully"))
+            print(self.t("blocked_successfully"))
             print("   " + self.t("can_use_cheats"))
         except Exception as e:
             print("❌ " + self.t("error_writing") + f" {e}")
@@ -289,7 +289,7 @@ class KuroblockMenu:
             with open(self.hosts_file, 'w', encoding='utf-8') as f:
                 f.writelines(cleaned_lines)
             print("\n✅ " + self.t("removed_blocks") + f" {removed_count} " + self.t("new_blocks"))
-            print("🎉 " + self.t("unblocked_successfully"))
+            print(self.t("unblocked_successfully"))
             print("   " + self.t("can_play_online"))
         except Exception as e:
             print("❌ " + self.t("error_writing") + f" {e}")

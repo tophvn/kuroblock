@@ -4,12 +4,9 @@ Một công cụ để chặn các server của game Wuthering Waves bằng các
 
 ## Tính năng
 
-- 🔒 Chặn tất cả server data receiver của Wuthering Waves
-- 💾 Tự động tạo backup file hosts
-- ✅ Kiểm tra và báo cáo trạng thái từng domain
-- 🗑️ Xóa các entry trùng lặp
-- 🛡️ Yêu cầu quyền Administrator để bảo mật
-- 🌍 **Hỗ trợ đa ngôn ngữ (Tiếng Anh - Tiếng Việt)**
+- Chặn tất cả server data receiver của Wuthering Waves
+- Tự động tạo backup file hosts
+- Kiểm tra và báo cáo trạng thái từng domain
 
 ## Cài đặt
 

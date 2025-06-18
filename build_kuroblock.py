@@ -46,7 +46,7 @@ def build_kuroblock():
     try:
         subprocess.check_call(cmd)
         print("✅ Kuroblock.exe built successfully!")
-        print("📁 Output: dist/Kuroblock.exe")
+        print("Output: dist/Kuroblock.exe")
         return True
     except subprocess.CalledProcessError as e:
         print(f"❌ Build failed: {e}")
@@ -182,15 +182,15 @@ def main():
         # Create README
         create_readme()
         
-        print("\n🎉 Build completed successfully!")
-        print("📁 Files created:")
+        print("\nBuild completed successfully!")
+        print("Files created:")
         print("  - dist/Kuroblock.exe (Main executable)")
         print("  - install_kuroblock.bat (Installer script)")
         print("  - README_Kuroblock.txt (Documentation)")
-        print("\n📖 To install:")
+        print("\nTo install:")
         print("  1. Run install_kuroblock.bat as Administrator")
         print("  2. Or copy Kuroblock.exe to desired location")
-        print("\n🎮 To use:")
+        print("\nTo use:")
         print("  Right-click Kuroblock.exe and 'Run as administrator'")
     else:
         print("\n❌ Build failed!")

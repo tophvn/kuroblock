@@ -4,13 +4,9 @@ A tool to block Wuthering Waves game servers by modifying the hosts file, helpin
 
 ## Features
 
-- 🔒 Blocks all Wuthering Waves data receiver servers
-- 💾 Creates automatic backup of hosts file
-- ✅ Checks and reports status of each domain
-- 🗑️ Removes duplicate entries
-- 🛡️ Requires administrator privileges for security
-- 🧹 Includes hosts file cleaner for FitGirl entries
-- 🌍 **NEW: Interactive menu with 3 options**
+-  Blocks all Wuthering Waves data receiver servers
+-  Creates automatic backup of hosts file
+-  Checks and reports status of each domain
 
 ## Installation
 
