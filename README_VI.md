@@ -97,13 +97,6 @@ Backup được lưu tại: `C:\Windows\System32\drivers\etc\backups\`
 ⚠️ Sử dụng có rủi ro. Chỉnh sửa file game có thể vi phạm điều khoản sử dụng.
 ⚠️ Luôn giữ backup file hosts trước khi sử dụng.
 
-## Thông tin build
-
-- Được build bằng PyInstaller
-- Python version: 3.12
-- File exe đơn lẻ với icon tùy chỉnh
-- Không cần thư viện bên ngoài
-
 ## Cách hoạt động
 
 ### Tại sao cần chặn server?
@@ -122,18 +115,3 @@ Backup được lưu tại: `C:\Windows\System32\drivers\etc\backups\`
 - ⚠️ **Một số game có anti-cheat mạnh** (Vanguard, BattlEye) vẫn phát hiện được
 - ⚠️ **Sử dụng có rủi ro** - Vẫn có thể bị ban nếu bị phát hiện
 - ⚠️ **Không đảm bảo 100%** - Chỉ giảm thiểu khả năng bị phát hiện
-
-## Tóm tắt workflow
-
-| Hành động | Khi nào dùng | Kết quả |
-|-----------|-------------|---------|
-| **Chặn** | Muốn dùng cheat | 9/9 domains bị chặn |
-| **Bỏ chặn** | Muốn chơi online | 0/9 domains bị chặn |
-| **Kiểm tra** | Kiểm tra trạng thái | Hiển thị số domain bị chặn |
-
-## Hỗ trợ
-
-Nếu gặp vấn đề, hãy:
-1. Đảm bảo chạy với quyền Administrator
-2. Kiểm tra file hosts có tồn tại không
-3. Xem thư mục backup có được tạo không 

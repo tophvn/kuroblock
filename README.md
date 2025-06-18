@@ -107,12 +107,6 @@ Backups are stored in: `C:\Windows\System32\drivers\etc\backups\`
 ⚠️ Use at your own risk. Modifying game files may violate terms of service.
 ⚠️ Keep backups of your hosts file before using.
 
-## Build Information
-
-- Built with PyInstaller
-- Python version: 3.12
-- Single file executable with custom icon
-- No external dependencies required
 
 ## How it works
 
@@ -133,10 +127,3 @@ Backups are stored in: `C:\Windows\System32\drivers\etc\backups\`
 - ⚠️ **Use at your own risk** - Still possible to get banned if detected
 - ⚠️ **No 100% guarantee** - Only minimizes detection risk
 
-## Workflow Summary
-
-| Action | When to use | Result |
-|--------|-------------|--------|
-| **Block** | Want to use cheats | 9/9 domains blocked |
-| **Unblock** | Want to play online | 0/9 domains blocked |
-| **Check** | Check status | Shows number of blocked domains | 
