@@ -81,6 +81,5 @@ Backup được lưu tại: `C:\Windows\System32\drivers\etc\backups\`
 ## Lưu ý quan trọng
 
 - ⚠️ **Chỉ chặn được server báo cáo**, không chặn được anti-cheat local
-- ⚠️ **Một số game có anti-cheat mạnh** (Vanguard, BattlEye) vẫn phát hiện được
 - ⚠️ **Sử dụng có rủi ro** - Vẫn có thể bị ban nếu bị phát hiện
 - ⚠️ **Không đảm bảo 100%** - Chỉ giảm thiểu khả năng bị phát hiện

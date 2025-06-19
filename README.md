@@ -89,7 +89,6 @@ Backups are stored in: `C:\Windows\System32\drivers\etc\backups\`
 ## Important Notes
 
 - ⚠️ **Only blocks reporting servers**, doesn't block local anti-cheat
-- ⚠️ **Some games have strong anti-cheat** (Vanguard, BattlEye) that can still detect
 - ⚠️ **Use at your own risk** - Still possible to get banned if detected
 - ⚠️ **No 100% guarantee** - Only minimizes detection risk
 
