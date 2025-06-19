@@ -268,17 +268,29 @@ class KuroblockMenu:
             print("❌ " + self.t("error_reading") + f" {e}")
             return
         
-        # Filter out Wuthering Waves blocks
+        # Filter out Wuthering Waves blocks with better matching
         cleaned_lines = []
         removed_count = 0
         
         for line in lines:
+            line_stripped = line.strip()
             should_keep = True
+            
+            # Skip empty lines and comments
+            if not line_stripped or line_stripped.startswith('#'):
+                cleaned_lines.append(line)
+                continue
+            
+            # Check if this line blocks any of our domains
             for server in self.wuwa_servers:
-                if f"{self.block_ip} {server}" in line:
+                # More flexible matching: IP + domain with optional whitespace
+                if (line_stripped.startswith(f"{self.block_ip} {server}") or 
+                    line_stripped.startswith(f"{self.block_ip}\t{server}") or
+                    f" {server}" in line_stripped or
+                    f"\t{server}" in line_stripped):
                     should_keep = False
                     removed_count += 1
-                    print("🗑️  " + self.t("removed") + f" {line.strip()}")
+                    print("🗑️  " + self.t("removed") + f" {line_stripped}")
                     break
             
             if should_keep:
@@ -288,7 +300,7 @@ class KuroblockMenu:
         try:
             with open(self.hosts_file, 'w', encoding='utf-8') as f:
                 f.writelines(cleaned_lines)
-            print("\n✅ " + self.t("removed_blocks") + f" {removed_count} " + self.t("new_blocks"))
+            print("\n✅ " + self.t("removed") + f" {removed_count} " + self.t("new_blocks"))
             print(self.t("unblocked_successfully"))
             print("   " + self.t("can_play_online"))
         except Exception as e:
@@ -317,9 +329,6 @@ class KuroblockMenu:
                 break
             else:
                 print("❌ " + self.t("invalid_choice"))
-            
-            if choice in ["1", "2", "3"]:
-                input("\n" + self.t("press_enter"))
 
 def main():
     menu = KuroblockMenu()
